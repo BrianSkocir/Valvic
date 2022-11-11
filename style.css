@@ -2,6 +2,12 @@
   margin: 0;
   padding: 0; }
 
+th, td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px; }
+
 .td {
   border: 3px solid #e2e2e4;
   font-size: 20px;
@@ -43,6 +49,12 @@
   letter-spacing: 10px;
   box-sizing: border-box; }
 
+#viacontacto h2, h3 {
+  color: #ff0000;
+  text-transform: uppercase;
+  position: relative;
+  text-align: center; }
+
 .ns, .ns1 {
   font-size: 40px;
   text-align: center;
@@ -67,7 +79,18 @@
 
 .espaciado {
   letter-spacing: 3px;
-  line-height: 1.5; }
+  line-height: 2;
+  margin: 100%;
+  padding: 100%; }
+
+.imagenes, .imagenes-r {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  object-position: bottom; }
+
+.imagenes-r {
+  height: 100px; }
 
 .imgfondo {
   width: 500px;
